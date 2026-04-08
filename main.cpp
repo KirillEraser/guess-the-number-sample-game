@@ -2,9 +2,9 @@
 #include <iostream>
 
 int main(){
-    int n = rand() % 10;
+    int n = rand() % 100;
 
-    stdout << "Guess the number:";
+    stdout << "Guess the number (1 to 99):";
     
     while (guess != secret) {
         std::cin >> guess;
